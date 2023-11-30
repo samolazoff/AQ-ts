@@ -1,9 +1,11 @@
 import {configureStore} from '@reduxjs/toolkit';
 
-import store from '../interfaces/store';
+import langSlice from './slices/langSlice';
 
 export default configureStore({
-    reducer: {},
+    reducer: {
+        lang: langSlice
+    },
     middleware: (getDefaultMiddleware) => getDefaultMiddleware(),
     devTools: true
 });
