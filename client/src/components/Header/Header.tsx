@@ -1,19 +1,10 @@
-import React from 'react';
+import HeaderNav from "../HeaderNav/HeaderNav";
 
 const Header = () => {
     return (
         <header className='app-header'>
             <div className="container">
-                <nav>
-                    <ul>
-                        <li><a href="/"></a></li>
-                        <li><a href="/servers"></a></li>
-                        <li><a href="/permissions"></a></li>
-                        <li><a href="/reviews"></a></li>
-                        <li><a href="/news"></a></li>
-                        <li><a href="/contacts"></a></li>
-                    </ul>
-                </nav>
+                <HeaderNav></HeaderNav>
                 <div className="lang-panel">
                     <form action="" method="post">
                         <input type="hidden" />
