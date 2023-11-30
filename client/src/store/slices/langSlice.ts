@@ -17,19 +17,17 @@ export const langSlice = createSlice({
     name: 'lang',
     initialState,
     reducers: {
-        isLang: (state) => {
-            switch (state.lang) {
-                case 'RU':
-                    state.text = textForRu
-                    break;
-                case 'EN':
-                    state.text = textForEn
-                    break;
-            }
+        changeLangEn: (state) => {
+            state.lang= 'EN';
+            state.text = textForEn;
+        },
+        changeLangRu: (state) => {
+            state.lang= 'Ru';
+            state.text = textForRu;
         }
     }
 });
 
-export const {isLang} = langSlice.actions;
+export const {changeLangEn, changeLangRu} = langSlice.actions;
 
 export default langSlice.reducer;
