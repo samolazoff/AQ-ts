@@ -1,9 +1,12 @@
+import { useAppSelector } from "../../store/hook";
+
 import HeaderNav from "../HeaderNav/HeaderNav";
 import LangPanel from "../LangPanel/LangPanel";
 
 import logo from '../../static/img/header/logo.png';
 
 const Header = () => {
+    const textAdress = useAppSelector((state) => state.lang.text.adress)
     return (
         <header className='app-header'>
             <div className="container">
@@ -13,9 +16,9 @@ const Header = () => {
             <div className="container presentation">
                 <img src={logo} alt="logo.png" className="presentation__img" />
                 <h1 className="presentation-title">
-                    <span className="presentation-title__title">ООО "АЛЬФА КВАЛИТЕТ"</span>
-                    <span className="presentation-title__subtitle">220017, г. Минск, ул. Притыцкого, 146, к. 208</span>
-                    <span className="presentation-title__subtitle">тел./факс: +375 (17) 232-13-13, e-mail: alfaquality@ya.ru</span>
+                    <span className="presentation-title__title">{ textAdress[0]}</span>
+                    <span className="presentation-title__subtitle">{ textAdress[1]}</span>
+                    <span className="presentation-title__subtitle">{ textAdress[2]}</span>
                 </h1>
             </div>
             <div className="bgc-header">
