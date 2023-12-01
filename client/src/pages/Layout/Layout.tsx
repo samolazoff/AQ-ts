@@ -2,6 +2,7 @@ import React from 'react';
 import {Outlet} from 'react-router-dom';
 
 import Header from '../../components/Header/Header';
+import Footer from '../../components/footer/Footer';
 
 const Layout = () => {
     return (
@@ -10,9 +11,7 @@ const Layout = () => {
             <main className="app-main">
                 <Outlet></Outlet>
             </main>
-            <footer className="app-footer">
-                
-            </footer>   
+            <Footer></Footer>
         </>
     );
 }
