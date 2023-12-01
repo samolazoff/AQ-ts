@@ -3,6 +3,8 @@ import {Routes, Route} from 'react-router-dom';
 
 import Layout from './pages/Layout/Layout';
 
+import './App.sass';
+
 
 function App() {
   return (
