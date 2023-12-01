@@ -1,12 +1,11 @@
-import React from 'react';
 
 import './About.sass';
 
 const About = () => {
     return (
-        <div>
-            
-        </div>
+        <section className='block-about'>
+            <h2 className="title-block">О нас</h2>
+        </section>
     );
 };
 

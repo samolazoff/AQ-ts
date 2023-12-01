@@ -4,9 +4,9 @@ import './NewsMini.sass';
 
 const NewsMini = () => {
     return (
-        <div>
-            
-        </div>
+        <section className='block-news-mini'>
+            <h2 className="title-block">Новости</h2>
+        </section>
     );
 };
 
