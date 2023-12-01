@@ -3,6 +3,8 @@ import { useAppSelector } from "../../store/hook";
 import HeaderNav from "../HeaderNav/HeaderNav";
 import LangPanel from "../LangPanel/LangPanel";
 
+import './Header.sass';
+
 import logo from '../../static/img/header/logo.png';
 
 const Header = () => {

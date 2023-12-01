@@ -1,0 +1,14 @@
+@import ../../styles/samolazoff
+@import ../../styles/var
+
+.app-header-nav
+    z-index: 999
+    &-items
+        height: 80px
+        @include flex(row, flex-end, center)
+        gap: 20px
+    &-item
+        @include text(1.1em, normal, normal, $primary-color-txt)
+        text-transform: uppercase
+        &:hover
+            color: #BC5A5D
