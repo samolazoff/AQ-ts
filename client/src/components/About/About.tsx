@@ -1,5 +1,7 @@
 import { useAppSelector } from '../../store/hook';
 
+import Slider from '../Slider/Slider';
+
 import './About.sass';
 
 const About = () => {
@@ -14,6 +16,7 @@ const About = () => {
                     )
                 })
             }
+            <Slider></Slider>
         </section>
     );
 };
