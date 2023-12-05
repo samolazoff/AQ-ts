@@ -5,13 +5,27 @@ import textSite from '../../interfaces/textSite';
 const textForRu: textSite = {
     header: ['главная', 'услуги', 'разрешения', 'отзывы', 'новости', 'контакты'],
     adress: ['ООО "АЛЬФА КВАЛИТЕТ"','220017, г. Минск, ул. Притыцкого, 146, к. 208','тел./факс: +375 (17) 232-13-13, e-mail: alfaquality@ya.ru' ],
-    footer: 'ООО "АЛЬФА КВАЛИТЕТ"'
+    footer: 'ООО "АЛЬФА КВАЛИТЕТ"',
+    about: [
+        'О нас',
+        [
+            'Общество с ограниченной ответственностью «Альфа Квалитет» зарегистрировано в Минском горисполкоме в 2015 г. Наша специализация – деятельность в области промышленной безопасности',
+            'Мы используем новейшие методики и передовые технологии, обеспечиваем высокое качество работ по адекватным ценам'
+        ]
+    ]
 };
 
 const textForEn: textSite= {
     header: ['main', 'services', 'permissions', 'reviews', 'news', 'contacts'],
     adress: ['ALFA QUALITY LLC','220017, Minsk, Prytytsky str., 146, room 208','tel./fax: +375 (17) 232-13-13, e-mail: alfaquality@ya.ru ' ],
-    footer: 'ALFA QUALITY LLC'
+    footer: 'ALFA QUALITY LLC',
+    about: [
+        'About us',
+        [
+            'Alfa Quality was registered with the Minsk City Executive Committee in 2015. Our specialization is in the field of industrial safety',
+            'We use the latest techniques and advanced technologies, provide high quality work at reasonable prices'
+        ]
+    ]
 };
 
 const initialState = {
