@@ -1,0 +1,20 @@
+@import ../../styles/samolazoff
+@import ../../styles/var
+
+.app-partners
+    margin-top: 5em !important
+    &__img
+        width: 200px
+        height: 200px
+        object-fit: contain
+    &__title
+        @include text(1.2em, normal, 600, $primary-color-text-dark)
+        text-align: center
+.app-partners-items
+    @include flex(row, center, flex-start)
+    flex-wrap: wrap
+    gap: 50px
+.app-partners__item
+    width: 250px
+    height: 250px
+    @include flex(column, center, center)

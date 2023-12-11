@@ -17,7 +17,16 @@ const textForRu: textSite = {
             'Мы используем новейшие методики и передовые технологии, обеспечиваем высокое качество работ по адекватным ценам'
         ]
     ],
-    news: ['Новости', newsDataJson.ru]
+    news: ['Новости', newsDataJson.ru],
+    partners: [ 'Наши партнеры',
+       [ 
+        'ОАО «Газпром трансгаз Беларусь»',
+        'ОАО «Газпром трансгаз Беларусь» ф-л «ЭКОГАЗ»',
+        'ОАО «Мозырский НПЗ»',
+        'Предприятия концерна «Белнефтехим»',
+        'УП «Могилеввторчермет»',
+        'Государственное предприятие «Мозырские молочные продукты»']
+    ]
 };
 
 const textForEn: textSite= {
@@ -31,7 +40,16 @@ const textForEn: textSite= {
             'We use the latest techniques and advanced technologies, provide high quality work at reasonable prices'
         ]
     ],
-    news: ['News', newsDataJson.en]
+    news: ['News', newsDataJson.en],
+    partners: [ 'Our partners',
+       [ 
+        'OJSC «Gazprom Transgaz Belarus»',
+        '«Ecogas» branch OJSC «Gazprom transgaz Belarus»',
+        'JSC MOZYR OIL REFINERY',
+        'The Belarusian State Concern for Oil and Chemistry (Belneftekhim Concern)',
+        'Unitary Enterprise Mogilevvtorchermet',
+        'Mozyr Dairy Products']
+    ]
 };
 
 const initialState = {
