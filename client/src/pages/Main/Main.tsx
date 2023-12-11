@@ -1,4 +1,3 @@
-
 import About from "../../components/About/About";
 import NewsMini from "../../components/NewsMini/NewsMini";
 

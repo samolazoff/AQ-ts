@@ -6,14 +6,12 @@ import './NewsMini.sass';
 
 const NewsMini = () => {
     const arrNews  =  useAppSelector((state) => state.lang.text.news);
-    console.log(typeof arrNews[0].id);
-    
     return (
         <aside className='block-news-mini'>
-            <h2 className="title-block">Новости</h2>
+            <h2 className="title-block">{arrNews[0]}</h2>
             <div className="box-news-mini">
                 {
-                    arrNews.map(elem => {
+                    arrNews[1].map(elem => {
                         return(
                             <Link className="box-news-mini-item" key={elem.id} to={'/news:'+elem.id}>
                                 <span className="box-news-mini__date">{elem.date}</span>

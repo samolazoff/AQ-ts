@@ -17,7 +17,7 @@ const textForRu: textSite = {
             'Мы используем новейшие методики и передовые технологии, обеспечиваем высокое качество работ по адекватным ценам'
         ]
     ],
-    news: newsDataJson.ru
+    news: ['Новости', newsDataJson.ru]
 };
 
 const textForEn: textSite= {
@@ -31,7 +31,7 @@ const textForEn: textSite= {
             'We use the latest techniques and advanced technologies, provide high quality work at reasonable prices'
         ]
     ],
-    news: newsDataJson.en
+    news: ['News', newsDataJson.en]
 };
 
 const initialState = {

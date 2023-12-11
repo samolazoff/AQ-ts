@@ -5,5 +5,5 @@ export default interface textSite {
     adress:string[],
     footer:string,
     about: [string, string[]],
-    news: newsStructures[]
+    news: [string, newsStructures[]]
 }

@@ -1,0 +1,27 @@
+@import ../../styles/samolazoff
+@import ../../styles/var
+
+.app-news
+    @include flex(column, flex-start, center)
+    &-items
+        @include flex(column, flex-start, center)
+        gap: 50px
+    &-item
+        @include flex(column, flex-start, center)
+        gap: 10px
+        padding-bottom: 20px
+        border-bottom: 2px solid $primary-color-text-dark
+        &__date
+            width: 100%
+            text-align: start
+            @include text(1.8em, normal, 800, $primary-color-text-dark)
+        &__title
+            @include text(2.5em, normal, 800, $primary-color-text-dark)
+            width: 100%
+            text-align: center
+            padding-bottom: 20px
+        &__txt
+            @include text(1.3em, normal, 500, $primary-color-text-dark)
+            line-height: 40px
+            text-align: justify
+        &__img
