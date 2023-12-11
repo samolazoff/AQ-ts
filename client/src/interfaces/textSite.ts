@@ -1,6 +1,9 @@
+import newsStructures from '../interfaces/news';
+
 export default interface textSite {
     header:string[],
     adress:string[],
     footer:string,
-    about: [string, string[]]
+    about: [string, string[]],
+    news: newsStructures[]
 }

@@ -1,115 +1,61 @@
-[
-    {
-        "ru": [
-                [
-                    {
-                        "title":"Сканирование днищ резервуаров системой Floormap3D"
-                    },
-                    {
-                        "date":"05.12.2022"
-                    },
-                    {
-                        "cont":
-                        [
-                            {
-                                "txt" : "Мы готовы предложить Вам новую услугу: сканирование днищ резервуаров ситемой Floormap3D (Silverwing UK Ltd)."
-                            },
-                            {
-                                "img":""
-                            },
-                            {
-                                "txt":"Floormap3D - это система последнего поколения, использующая метод рассеяния магнитного потока для контроля днищ резервуаров для хранения жидкостей (в т. ч. резервуаров для нефти, нефтепродуктов, химических продуктов). Система использует преимущества новейших разработок в области разработки магнитов и технологии STARS, разработанных Silverwing, для обеспечения улучшенных характеристик обнаружения дефектов и определения размеров, а также возможности различать показания с наружной и внутренней сторон днища."
-                            },
-                            {
-                                "img":""
-                            },
-                            {
-                                "txt":"Бортовой компьютер с сенсорным экраном позволяет осуществлять полный сбор данных о сигналах, обнаруженных при рассеянии магнитного потока (MFL). Просмотр показаний MFL может осуществляться на бортовом компьютере с помощью специального программного обеспечения для сбора данных или с помощью специального программного обеспечения для создания отчетов на настольном компьютере или ноутбуке."
-                            },
-                            {
-                                "img":""
-                            },
-                            {
-                                "txt":"Программное обеспечение для составления отчетов позволяет группировать дефекты в соответствии со степенью коррозионного износа при помощи цветовой кодировки. Система Floormap3D разработана для обнаружения дефектов (точечной и сплошной коррозии), независимо от того, с какой стороны днища они расположены. С помощью системы Floormap3D могут быть обнаружены и измерены точечные повреждения с утонением около 20% от номинальной толщины."
-                            }
-                        ]
-                    }
-                ],
-                [
-                    {
-                        "title":"Техническое диагностирование трубопроводов пара и горячей воды"
-                    },
-                    {
-                        "date":"11.01.2022"
-                    },
-                    {
-                        "cont":
-                        [
-                            {
-                                "txt" :"ООО 'Альфа Квалитет' расширил спектр оказываемых услуг по техническому диагностированию технических устройств, применяемых на следующих опасных производственных объектах:"
-                            },
-                            {
-                                "txt":"Трубопроводы пара и горячей воды с рабочим давлением более 0,07МПа и температурой воды свыше 115 С - элементы оборудования, работающего под избыточным давлением (сборочные единицы) и комплектующие к нему, выдерживающие воздействие  давления"
-                            }
-                        ]
-                    }
-                ]
+{
+    "ru": 
+    [
+        {
+            "id": "1",
+            "title": "Сканирование днищ резервуаров системой Floormap3D",
+            "date": "05.12.2022",
+            "contText": [
+                "Мы готовы предложить Вам новую услугу: сканирование днищ резервуаров ситемой Floormap3D (Silverwing UK Ltd).",
+                "Floormap3D - это система последнего поколения, использующая метод рассеяния магнитного потока для контроля днищ резервуаров для хранения жидкостей (в т. ч. резервуаров для нефти, нефтепродуктов, химических продуктов). Система использует преимущества новейших разработок в области разработки магнитов и технологии STARS, разработанных Silverwing, для обеспечения улучшенных характеристик обнаружения дефектов и определения размеров, а также возможности различать показания с наружной и внутренней сторон днища.",
+                "Бортовой компьютер с сенсорным экраном позволяет осуществлять полный сбор данных о сигналах, обнаруженных при рассеянии магнитного потока (MFL). Просмотр показаний MFL может осуществляться на бортовом компьютере с помощью специального программного обеспечения для сбора данных или с помощью специального программного обеспечения для создания отчетов на настольном компьютере или ноутбуке.",
+                "Программное обеспечение для составления отчетов позволяет группировать дефекты в соответствии со степенью коррозионного износа при помощи цветовой кодировки. Система Floormap3D разработана для обнаружения дефектов (точечной и сплошной коррозии), независимо от того, с какой стороны днища они расположены. С помощью системы Floormap3D могут быть обнаружены и измерены точечные повреждения с утонением около 20% от номинальной толщины."
             ],
-            
-        "en": [
-            [
-                {
-                    "title":"Scanning tank bottoms with the Floormap3D system"
-                },
-                {
-                    "date":"05.12.2022"
-                },
-                {
-                "cont":
-                    [
-                        {
-                            "txt": "We are ready to offer you a new service: scanning tank bottoms with the Floormap3D system (Silverwing UK Ltd)."
-                        },
-                        {
-                            "img":""
-                        },
-                        {
-                            "txt":"Floormap3D is a latest generation system using the magnetic flux scattering method to control the bottoms of liquid storage tanks (including tanks for oil, petroleum products, chemical products). The system takes advantage of the latest developments in magnet development and STARS technology developed by Silverwing to provide improved defect detection and sizing characteristics, as well as the ability to distinguish readings from the outer and inner sides of the bottom."
-                        },
-                        {
-                            "img":""
-                        },
-                        {
-                            "txt":"An on-board computer with a touch screen allows full data collection of signals detected during magnetic flux scattering (MFL). The MFL readings can be viewed on an on-board computer using special data collection software or using special reporting software on a desktop computer or laptop."
-                        },
-                        {
-                            "img":""
-                        },
-                        {
-                            "txt":"The reporting software allows you to group defects according to the degree of corrosion wear using color coding. The Floormap3D system is designed to detect defects (spot and solid corrosion), regardless of which side of the bottom they are located on. With the Floormap3D system, point damages with a thinning of about 20% of the nominal thickness can be detected and measured."
-                        }
-                    ]
-                }
-                ],
-                [
-                    {
-                        "title":"Technical diagnostics of steam and hot water pipelines"
-                    },
-                    {
-                        "date":"11.01.2022"
-                    },
-                {
-                "cont":
-                    [
-                        {
-                            "txt":"Alfa Quality LLC has expanded the range of services provided for technical diagnostics of technical devices used at the following hazardous production facilities:"
-                        },
-                        {
-                            "txt":"Steam and hot water pipelines with an operating pressure of more than 0.07MPa and a water temperature of more than 115 C - elements of equipment operating under excessive pressure (assembly units) and accessories to it that withstand pressure"
-                        }
-                    ]
-                }
-                ]
-        ]
-    }
-]
+            "contImg":[
+                "",
+                "",
+                ""
+            ]
+        },
+        {
+            "id": "2",
+            "title":"Техническое диагностирование трубопроводов пара и горячей воды",
+            "date":"11.01.2022",
+            "contText": [
+                "ООО 'Альфа Квалитет' расширил спектр оказываемых услуг по техническому диагностированию технических устройств, применяемых на следующих опасных производственных объектах:",
+                "Трубопроводы пара и горячей воды с рабочим давлением более 0,07МПа и температурой воды свыше 115 С - элементы оборудования, работающего под избыточным давлением (сборочные единицы) и комплектующие к нему, выдерживающие воздействие  давления"
+            ],
+            "contImg":[]
+        }
+    ],
+        
+    "en":
+    [
+        {
+            "id": "1",
+            "title": "Tank bottoms scanning by Floormap3D system",
+            "date": "05.12.2022",
+            "contText": [
+                "We are ready to offer you a new service: tank bottoms scanning by Floormap3D system (Silverwing UK Ltd).",
+                "Floormap3D is a latest generation system using the magnetic flux scattering method to control the bottoms of liquid storage tanks (including tanks for oil, petroleum products, chemical products). The system takes advantage of the latest developments in magnet development and STARS technology developed by Silverwing to provide improved defect detection and sizing characteristics, as well as the ability to distinguish readings from the outer and inner sides of the bottom.",
+                "An on-board computer with a touch screen allows for the complete collection of data on signals detected during magnetic flux scattering (MFL). The MFL readings can be viewed on an on-board computer using special data collection software or using special reporting software on a desktop computer or laptop.",
+                "The reporting software allows you to group defects according to the degree of corrosion wear using color coding. The Floormap3D system is designed to detect defects (spot and solid corrosion), regardless of which side of the bottom they are located on. With the Floormap3D system, point damages with a thinning of about 20% of the nominal thickness can be detected and measured."
+            ],
+            "contImg":[
+                    "",
+                    "",
+                    ""
+            ]
+        },
+        {
+            "id": "2",
+            "title":"Technical diagnostics of steam and hot water pipelines",
+            "date":"11.01.2022",
+            "contText": [
+                "Alfa Quality LLC has expanded the range of services provided for technical diagnostics of technical devices used at the following hazardous production facilities:",
+                "Steam and hot water pipelines with an operating pressure of more than 0.07 MPa and a water temperature of more than 115 C - elements of equipment operating under excessive pressure (assembly units) and accessories to it that withstand pressure"
+            ],
+            "contImg":[]
+        }
+    ]
+}
