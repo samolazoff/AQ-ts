@@ -1,5 +1,4 @@
 import { useAppSelector } from '../../store/hook';
-
 import Slider from '../Slider/Slider';
 
 import './About.sass';
