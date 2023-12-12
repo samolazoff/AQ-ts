@@ -33,3 +33,17 @@
     @include text(4em, normal, 600, $primary-color)
     text-transform:  capitalize
     text-align: center
+.btn
+    @include flex(row, center, center)
+    width: 150px
+    padding: 15px 35px
+    border-radius: 50px
+    background-image: linear-gradient(147deg, $primary-color-light 0%, $primary-color 74%)
+    color: $primary-color-txt
+    box-shadow: 0px 14px 40px $primary-color-light
+    @include text(.9em, normal, 500, $primary-color-txt)
+    text-decoration: none
+    letter-spacing: 1px
+    &:hover
+        color: $primary-color-light
+        cursor: pointer
