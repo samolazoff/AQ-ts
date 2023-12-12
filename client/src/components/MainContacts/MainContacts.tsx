@@ -8,6 +8,17 @@ const MainContacts = () => {
     return (
         <>
             <ul className='app-contacts-main'>
+                <div className="app-contacts-main-boss">
+                        <span className="txt_bold">{bossConatacts[0]}</span>
+                        <span>
+                            <span className="txt_bold">{bossConatacts[1][0]}</span>
+                            <span>{bossConatacts[1][1]}</span>
+                        </span>
+                        <span>
+                            <span className="txt_bold">{bossConatacts[2][0]}</span>
+                            <span>{bossConatacts[2][1]}</span>
+                        </span>
+                </div>
                 {
                     mainContacts.map((elem, index) => {
                         return (
@@ -18,17 +29,6 @@ const MainContacts = () => {
                         )
                     })
                 }
-                <div className="app-contacts-main-boss">
-                    <span className="txt_bold">{bossConatacts[0]}</span>
-                    <span>
-                        <span className="txt_bold">{bossConatacts[1][0]}</span>
-                        <span>{bossConatacts[1][1]}</span>
-                    </span>
-                    <span>
-                        <span className="txt_bold">{bossConatacts[2][0]}</span>
-                        <span>{bossConatacts[2][1]}</span>
-                    </span>
-                </div>
             </ul>
         </>
     );
