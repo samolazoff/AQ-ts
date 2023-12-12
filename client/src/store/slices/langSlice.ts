@@ -26,6 +26,20 @@ const textForRu: textSite = {
         'Предприятия концерна «Белнефтехим»',
         'УП «Могилеввторчермет»',
         'Государственное предприятие «Мозырские молочные продукты»']
+    ],
+    contactsMain: [
+        'Контакты',
+        [
+            ['Адрес: ',  '20017, г. Минск, ул. Притыцкого, 146, к. 208'],
+            ['Тел/Факс: ', '+375 (17) 232-13-13'],
+            ['E-mail:', ' alfaquality@ya.ru'],
+            ['Часы работы:', '9:00 - 17:00'],
+        ],
+        [
+            'Начальник лаборатории НКиТД Панич Георгий Германович' ,
+            ['тел./факс: ', '+375 (17) 232-13-13'],
+            ['тел. моб.: ','+375 (29) 639-40-81']
+        ]
     ]
 };
 
@@ -49,6 +63,20 @@ const textForEn: textSite= {
         'The Belarusian State Concern for Oil and Chemistry (Belneftekhim Concern)',
         'Unitary Enterprise Mogilevvtorchermet',
         'Mozyr Dairy Products']
+    ],
+    contactsMain: [
+        'Contacts',
+        [
+            ['Address: ', '20017, Minsk, Prytytsky str., 146, room 208'],
+            ['Tel/Fax: ', '+375 (17) 232-13-13'],
+            ['E-mail:', ' alfaquality@ya.ru'],
+            ['Opening hours:', '9:00 - 17:00'],
+        ],
+        [
+            'Head theLaboratory Georgy Germanovich Panich' ,
+            ['tel./fax: ','+375 (17) 232-13-13'],
+            ['tel. mob.: ','+375 (29) 639-40-81']
+        ]
     ]
 };
 

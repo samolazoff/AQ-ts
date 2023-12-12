@@ -7,4 +7,5 @@ export default interface textSite {
     about: [string, string[]],
     news: [string, newsStructures[]],
     partners: [string, string[]],
+    contactsMain: [string,[string,string][], [string, string[],string[]]]
 }

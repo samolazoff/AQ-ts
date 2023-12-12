@@ -1,0 +1,17 @@
+@import ../../styles/samolazoff
+@import ../../styles/var
+
+.app-contacts-main
+    @include  flex(column, center, flex-start)
+    gap: 10px
+    max-width: 580px
+    &-item
+        @include  flex(row, flex-start, center)
+        gap: 5px
+        @include  text(1.1rem, normal, normal, $primary-color-text-dark)
+        letter-spacing: -.8px
+.app-contacts-main-boss
+    @include  flex(column, center, flex-start)
+    @include  text(1.1rem, normal, normal, $primary-color-text-dark)
+    gap: 10px
+    max-width: 280px
