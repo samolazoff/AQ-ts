@@ -8,5 +8,6 @@ export default interface textSite {
     news: [string, newsStructures[]],
     partners: [string, string[]],
     contactsMain: [string,[string,string][], [string, string[],string[]]],
-    services: [[string, string, string[]],[string, string, string[]]]
+    services: [[string, string, string[]],[string, string, string[]]],
+    permissions: string[][],
 }

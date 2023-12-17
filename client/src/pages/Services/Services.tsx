@@ -1,6 +1,7 @@
 import { useAppSelector } from '../../store/hook';
 
 import './Services.sass';
+
 import img_1_1 from '../../public/img/services/1-1.png'; 
 import img_1_2 from '../../public/img/services/1-2.jpg';
 import img_1_3 from '../../public/img/services/1-3.png';
