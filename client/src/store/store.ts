@@ -1,10 +1,12 @@
 import {configureStore} from '@reduxjs/toolkit';
 
 import langSlice from './slices/langSlice';
+import permissionsSlice from './slices/permissionsSlice';
 
 export const store = configureStore({
     reducer: {
-        lang: langSlice
+        lang: langSlice,
+        classPermissions: permissionsSlice
     },
     devTools: true
 });

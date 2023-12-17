@@ -4,8 +4,6 @@ import textSite from '../../interfaces/textSite';
 
 import newsDataJson from '../../data/news.json';
 
-console.log(newsDataJson);
-
 const textForRu: textSite = {
     header: ['главная', 'услуги', 'разрешения', 'отзывы', 'новости', 'контакты'],
     adress: ['ООО "АЛЬФА КВАЛИТЕТ"','220017, г. Минск, ул. Притыцкого, 146, к. 208','тел./факс: +375 (17) 232-13-13, e-mail: alfaquality@ya.ru' ],

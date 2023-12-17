@@ -1,4 +1,5 @@
-import { useAppSelector } from '../../store/hook';
+import { useAppSelector, useAppDispatch } from '../../store/hook';
+import { changeClassPermissions } from '../../store/slices/permissionsSlice';
 
 import './Permissions.sass';
 
@@ -19,11 +20,11 @@ import GazProm_icon from '../../public/img/permissions/GazProm-icon.png';
 
 
 const permissionsImg = [
-    licenziaGPN,
-    licenziaRad,
-    licenzia17025,
-    licenziaVSRB,
-    licenzia9001,
+    [licenziaGPN],
+    [licenziaRad],
+    [licenzia17025],
+    [licenziaVSRB],
+    [licenzia9001],
     [licenziaGazProm_1, licenziaGazProm_2]
 ];
 
@@ -37,10 +38,44 @@ const permissionsIcon = [
 ];
 
 const Permissions = () => {
-    const [dataPermissions] = useAppSelector((state) => state.lang.text.about);
+    const dataPermissions = useAppSelector((state) => state.lang.text.permissions);
+    const classPermissions = useAppSelector((state) => state.classPermissions.classPermissions)
+    console.log(changeClassPermissions);
+    
+    const dispatch = useAppDispatch();
+
     return (
         <section className='app-permissions container'>
-            <h2 className="title-page">permissions</h2>
+            <ul className="app-permissions-wrapp">
+                {
+                    dataPermissions.map((element, index) => {
+                        return(
+                            <li
+                                className="app-permissions-item"
+                                key={index}
+                                onClick= {() => dispatch(changeClassPermissions())}
+                                >
+                                <div className="app-permissions-item-box-title">
+                                    <img src={permissionsIcon[index]} alt='icon-licen' className="app-permissions-item__icon" />
+                                    <h3 className="app-permissions-item__title">{element[0]}</h3>
+                                </div>
+                                <div className={classPermissions}>
+                                    <h3 className="app-permissions-item__title">{element[1]}</h3>
+                                    <div className="app-permissions-item-box-subtitle-box-img">
+                                        {
+                                            permissionsImg[index].map((e, idx) => {
+                                                return(
+                                                    <img src={e} alt='icon-licen' className="app-permissions-item__icon" key={`${idx}+_1`}/>
+                                                )
+                                            })
+                                        }
+                                    </div>
+                                </div>
+                            </li>
+                        )
+                    })
+                }
+            </ul>
         </section>
     );
 };

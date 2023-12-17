@@ -1,0 +1,25 @@
+@import ../../styles/samolazoff
+@import ../../styles/var
+
+.app-permissions
+    &-wrapp
+        @include  flex(column, flex-start, flex-start)
+        gap: 25px
+    &-item
+        padding: 10px 20px
+        width: 100%
+        @include  flex(row, flex-start, center)
+        @include  text(1.3rem, normal, 500, $primary-color-dark)
+        border: 2px solid $primary-color-light
+        border-radius: 25px
+        &:hover
+            border: 2px solid $primary-color-dark
+            @include  text(1.3rem, normal, 500, $primary-color-text-dark)
+            cursor: pointer
+        &-box-title
+            @include  flex(row, flex-start, center)
+            gap: 20px
+        &__icon
+            width: 100px
+            height: 100px
+            object-fit: contain
