@@ -1,0 +1,43 @@
+@import ../../styles/samolazoff
+@import ../../styles/var
+
+.app-services
+    &-box
+        @include  flex(column, flex-start, flex-start)
+        margin-bottom: 75px
+    &__subtitle
+        @include  text(1.5rem, normal, 500, $primary-color-dark)
+        margin-bottom: 50px
+    &-non-distruction-imgs
+        @include  flex(row, center, flex-start)
+        flex-wrap: wrap
+        gap: 20px
+    &-non-distruction-img
+        width: 250px
+        height: 350px
+        @include  flex(column, spacce-between, center)
+        flex-wrap: wrap
+    &-non-distruction__img
+        width: 200px
+        height: 300px
+        object-fit: contain
+    &-non-distruction__title
+        @include  text(1.1rem, normal, 500, $primary-color-dark)
+        text-align: center
+    &-diagnostic-imgs
+        @include  flex(row, center, flex-start)
+        flex-wrap: wrap
+        gap: 20px
+    &-diagnostic-img
+        width: 350px
+        height: 480px
+        @include  flex(column, spacce-between, center)
+        flex-wrap: wrap
+        gap: 15px
+    &-diagnostic__img
+        width: 300px
+        height: 400px
+        object-fit: contain
+    &-diagnostic__title
+        @include  text(1.2rem, normal, 500, $primary-color-dark)
+        text-align: center

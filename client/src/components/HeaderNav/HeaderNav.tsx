@@ -3,7 +3,7 @@ import { useAppSelector } from '../../store/hook';
 
 import './HeaderNav.sass';
 
-const pathArr: string[] = ["/", "/servers", "/permissions", "/reviews", "/news", "/contacts"];
+const pathArr: string[] = ["/", "/services", "/permissions", "/reviews", "/news", "/contacts"];
 
 const HeaderNav = () => {
     const textLink = useAppSelector((state) => state.lang.text.header) 

@@ -40,6 +40,42 @@ const textForRu: textSite = {
             ['тел./факс: ', '+375 (17) 232-13-13'],
             ['тел. моб.: ','+375 (29) 639-40-81']
         ]
+    ],
+    services: [
+        [
+            'Неразрушающий контроль',
+            'Мы применяем широкий спектр методов неразрушающего контроля в т.ч. новейшие технологии, обеспечивая получение полной и достоверной информации о техническом состоянии контролируемых объектов',
+            [
+                'Метод рассеяния магнитного потока',
+                'Акустико-эмиссионный  контроль',
+                'Метод магнитной памяти металла',
+                'Ультразвуковая дефектоскопия',
+                'Вихретоковый контроль',
+                'Магнитопорошковый контроль',
+                'Металлографические исследования',
+                'Контроль адгезии',
+                'Контроль проникающими веществами',
+                'Контроль герметичности',
+                'Измерение твердости',
+                'Оптический контроль',
+                'Ультразвуковая толщинометрия',
+                'Вибродиагностический метод',
+                'Электроискровой метод контроля',
+                'Радиографическая дефектоскопия',
+                'Расчеты на прочность'
+            ]
+        ],
+        [
+            'Техническое диагностирование', 
+            'Мы оказываем услуги по техническому диагностированию с продлением срока службы различных технических устройств, в том числе применяемых на опасных производственных объектах',
+            [
+                'Объекты химических, нефтехимических, нефтеперерабатывающих производств',
+                'Объекты магистральных газопроводов',
+                'Сосуды, работающие под давлением',
+                'Объекты систем газопотребления и газораспределения',
+                'Аммиачные холодильные установки'
+            ]
+        ]
     ]
 };
 
@@ -76,6 +112,42 @@ const textForEn: textSite= {
             'Head theLaboratory Georgy Germanovich Panich' ,
             ['tel./fax: ','+375 (17) 232-13-13'],
             ['tel. mob.: ','+375 (29) 639-40-81']
+        ]
+    ],
+    services: [
+        [
+            'Non-destructive testing',
+            'We use a wide range of non-destructive testing methods, including the latest technologies, providing complete and reliable information about the technical condition of the controlled objects',
+                [
+                    'Magnetic flux scattering method',
+                    'Acoustic emission control',
+                    'Metal magnetic memory method',
+                    'Ultrasonic flaw detection',
+                    'Eddy current control',
+                    'Magnetic particle control',
+                    'Metallographic studies',
+                    'Adhesion control',
+                    'Control of penetrating substances',
+                    'Leakproofness control',
+                    'Hardness measurement',
+                    'Optical control',
+                    'Ultrasonic thickness measurement',
+                    'Vibration diagnostic method',
+                    'Electric spark control method',
+                    'Radiographic flaw detection',
+                    'Strength calculations'
+                ]
+        ],
+        [
+            'Technical diagnostics', 
+            'We provide technical diagnostics services to extend the service life of various technical devices, including those used at hazardous production facilities',
+            [
+                'Facilities of chemical, petrochemical, and oil refining industries',
+                'Objects of main gas pipelines',
+                'Pressure vessels',
+                'Objects of gas consumption and gas distribution systems',
+                'Ammonia refrigeration units'
+            ]
         ]
     ]
 };
