@@ -6,6 +6,7 @@ import News from './pages/News/News';
 import ContactsPage from './pages/Contacts/ContactsPage';
 import Services from './pages/Services/Services';
 import Permissions from './pages/Permissions/Permissions';
+import Reviews from './pages/Reviews/Reviews';
 
 import './App.sass';
 
@@ -19,6 +20,7 @@ function App() {
             <Route path = '/contacts' element = {<ContactsPage/>}></Route>
             <Route path = '/services' element = {<Services/>}></Route>
             <Route path = '/permissions' element = {<Permissions/>}></Route>
+            <Route path='/reviews' element= {<Reviews/>}></Route>
         </Route>
     </Routes>
   );
