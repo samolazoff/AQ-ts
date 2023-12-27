@@ -2,6 +2,7 @@ import { useAppSelector } from "../../store/hook";
 
 import HeaderNav from "../HeaderNav/HeaderNav";
 import LangPanel from "../LangPanel/LangPanel";
+import Burger from "../Burger/Burger";
 
 import './Header.sass';
 
@@ -12,6 +13,7 @@ const Header = () => {
     return (
         <header className='app-header'>
             <div className="container">
+                <Burger></Burger>
                 <HeaderNav></HeaderNav>
                 <LangPanel></LangPanel>
             </div>
